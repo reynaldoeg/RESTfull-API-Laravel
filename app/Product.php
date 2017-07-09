@@ -36,7 +36,7 @@ class Product extends Model
 		return $this->hasMany(Transaction::class);
 	}
 
-	public function caterories()
+	public function categories()
 	{
 		return $this->belongsToMany(Category::class);
 	}
